@@ -1,0 +1,150 @@
+/*
+ * jQuery UI CSS Framework 1.10.2
+ * http://jqueryui.com
+ *
+ * Copyright 2013 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming/API
+ *
+ * To view and modify this theme, visit http://jqueryui.com/themeroller/
+ */
+
+$ffDefault: Verdana,Arial,sans-serif !default;
+$fsDefault: 1.1em !default;
+$fsDefaultInner: 1em !default;
+$fwDefault: normal !default;
+$fcDefault: #555555 !default;
+$fcActive: #212121 !default;
+$fcHover: #212121 !default;
+$fcHeader: #222222 !default;
+$fcContent: #222222 !default;
+$fcHighlight: #363636 !default;
+$fcError: #cd0a0a !default;
+
+$borderColorContent: #aaaaaa !default;
+$borderWidthContent: 1px !default;
+$borderStyleContent: solid !default;
+$bgColorContent: #ffffff !default;
+$bgImgUrlContent: url(images/ui-bg_flat_75_ffffff_40x100.png) !default;
+$bgContentXPos: 50% !default; 
+$bgContentYPos: 50% !default;
+$bgContentRepeat: repeat-x !default;
+
+$borderColorHeader: #aaaaaa !default;
+$borderWidthHeader: 1px !default;
+$borderStyleHeader: solid !default;
+$bgColorHeader: #cccccc !default;
+$bgImgUrlHeader: url(images/ui-bg_highlight-soft_75_cccccc_1x100.png) !default;
+$bgHeaderXPos: 50% !default;
+$bgHeaderYPos: 50% !default;
+$bgHeaderRepeat: repeat-x !default;
+
+$borderColorDefault: #d3d3d3 !default;
+$borderWidthDefault: 1px !default;
+$borderStyleDefault: solid !default;
+$bgColorDefault: #e6e6e6 !default;
+$bgImgUrlDefault: url(images/ui-bg_glass_75_e6e6e6_1x400.png) !default;
+$bgDefaultXPos: 50% !default;
+$bgDefaultYPos: 50% !default;
+$bgDefaultRepeat: repeat-x !default;
+
+$borderColorHover: #999999 !default;
+$borderWidthHover: 1px !default;
+$borderStyleHover: solid !default;
+$bgColorHover: #dadada !default;
+$bgImgUrlHover: url(images/ui-bg_glass_75_dadada_1x400.png) !default;
+$bgHoverXPos: 50% !default;
+$bgHoverYPos: 50% !default;
+$bgHoverRepeat: repeat-x !default;
+
+$borderColorActive: #aaaaaa !default;
+$borderWidthActive: 1px !default;
+$borderStyleActive: solid !default;
+$bgColorActive: #ffffff !default;
+$bgImgUrlActive: url(images/ui-bg_glass_65_ffffff_1x400.png) !default;
+$bgActiveXPos: 50% !default;
+$bgActiveYPos: 50% !default;
+$bgActiveRepeat: repeat-x !default;
+
+$borderColorHighlight: #fcefa1 !default;
+$borderWidthHighlight: 1px !default;
+$borderStyleHighlight: solid !default;
+$bgColorHighlight: #fbf9ee !default;
+$bgImgUrlHighlight: url(images/ui-bg_glass_55_fbf9ee_1x400.png) !default;
+$bgHighlightXPos: 50% !default;
+$bgHighlightYPos: 50% !default;
+$bgHighlightRepeat: repeat-x !default;
+
+$borderColorError: #cd0a0a !default;
+$borderWidthError: 1px !default;
+$borderStyleError: solid !default;
+$bgColorError: #fef1ec !default;
+$bgImgUrlHighlight: url(images/ui-bg_glass_55_fbf9ee_1x400.png) !default;
+$bgHighlightXPos: 50% !default;
+$bgHighlightYPos: 50% !default;
+$bgHighlightRepeat: repeat-x !default;
+
+$bgColorError: #fef1ec !default;
+$bgImgUrlError: url(images/ui-bg_glass_95_fef1ec_1x400.png) !default;
+$bgErrorXPos: 50% !default;
+$bgErrorYPos: 50% !default;
+$bgErrorRepeat: repeat-x !default;
+
+$bgColorOverlay: #aaaaaa !default;
+$bgImgUrlOverlay: url(images/ui-bg_flat_0_aaaaaa_40x100.png) !default;
+$bgOverlayXPos: 50% !default;
+$bgOverlayYPos: 50% !default;
+$bgOverlayRepeat: repeat-x !default;
+
+$bgColorShadow: #aaaaaa !default;
+$bgImgUrlShadow: url(images/ui-bg_flat_0_aaaaaa_40x100.png) !default;
+$bgShadowXPos: 50% !default;
+$bgShadowYPos: 50% !default;
+$bgShadowRepeat: repeat-x !default;
+
+$iconWidth: 16px;
+$iconHeight: 16px;
+
+$iconWidthEm: 1.6em;
+$iconHeightEm: 1.6em;
+
+$iconsContent: url(images/ui-icons_222222_256x240.png) !default;
+$iconsHeader: url(images/ui-icons_222222_256x240.png) !default;
+$iconsDefault: url(images/ui-icons_888888_256x240.png) !default;
+$iconsHover: url(images/ui-icons_454545_256x240.png) !default;
+$iconsActive: url(images/ui-icons_454545_256x240.png) !default;
+$iconsHighlight: url(images/ui-icons_2e83ff_256x240.png) !default;
+$iconsError: url(images/ui-icons_cd0a0a_256x240.png) !default;
+
+$cornerRadius: 4px !default;
+$cornerRadiusShadow: 8px !default;
+
+$opacityOverlay: .3 !default;
+$opacityFilterOverlay: Alpha(Opacity=30) !default;
+
+$offsetTopShadow: -8px !default;
+$offsetLeftShadow: -8px !default;
+$thicknessShadow: 8px !default;
+$opacityShadow: .3 !default;
+$opacityFilterShadow: Alpha(Opacity=30) !default;
+
+
+// button-specific
+
+$buttonPaddingY: 0.4em !default; // distance in Y between button border and text
+$buttonTextPaddingX: 1em !default; // distance in X between button border and text
+$buttonIconPaddingX: 0.5em !default; // distance in X between button border and icon
+$buttonIconTextPaddingX: ($buttonIconPaddingX + $iconWidthEm) !default; // distance in X between button border and text if there's an icon in the same side
+
+
+// dialog-specific
+
+$dialogOuterPadding: 0.2em !default;
+
+// tooltip-specific
+
+$tooltipBorderWidth: 1px !default;
+$tooltipPaddingX: 8px !default;
+$tooltipPaddingY: 8px !default;
